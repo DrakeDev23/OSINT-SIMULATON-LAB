@@ -21,7 +21,7 @@ if (isset($_POST['username']) && !empty($_POST['username'])) {
 <div class="login-container">
     <h1>CTF Challenge Login</h1>
     <form method="POST">
-        <input type="text" name="username" placeholder="Enter Hacker Name" required>
+        <input type="text" name="username" placeholder="Enter your name" required>
         <button type="submit">Enter</button>
     </form>
     <p style="margin-top:20px; color:#00ff41;">Developed by: DrakeDev23</p>
